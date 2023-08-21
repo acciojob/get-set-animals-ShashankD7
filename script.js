@@ -18,10 +18,6 @@ class Dog extends Animal {
         super(species);
     }
 
-    bark() {
-        console.log("woof");
-    }
-
     makeSound() {
         console.log("Woof");
     }
@@ -30,10 +26,6 @@ class Dog extends Animal {
 class Cat extends Animal {
 	constructor(species) {
         super(species);
-    }
-
-    purr() {
-        console.log("purr");
     }
 
     makeSound() {
